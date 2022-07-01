@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/static/css/main.05884589.css",
+    "main.js": "/static/js/main.0ca447f0.js",
+    "static/js/787.cda612ba.chunk.js": "/static/js/787.cda612ba.chunk.js",
+    "static/media/curvelineeffect.png": "/static/media/curvelineeffect.bd2f3d8765ec86cd0726.png",
+    "static/media/Kerb_Logo.png": "/static/media/Kerb_Logo.b2abe679b983f808649e.png",
+    "index.html": "/index.html",
+    "main.05884589.css.map": "/static/css/main.05884589.css.map",
+    "main.0ca447f0.js.map": "/static/js/main.0ca447f0.js.map",
+    "787.cda612ba.chunk.js.map": "/static/js/787.cda612ba.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.05884589.css",
+    "static/js/main.0ca447f0.js"
+  ]
+}
