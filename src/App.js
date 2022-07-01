@@ -3,14 +3,12 @@ import './App.css';
 import whiteArrow from './components/arrows/Monochromewhite.png';
 import blackArrow from './components/arrows/Monochromeblack.png';
 import curvelineeffect from './components/curvelineeffect.png';
-import downleftblureffect from './components/downleftblureffect.png';
 
 function App() {
   return (
     <div className="app">
 
 <img src={curvelineeffect} className="curveLineEffect"/>
-{/* <img src={downleftblureffect} className="downleftblureffect"/>  */}
 
 <div className="downleftblureffect"></div>
 <div className="leftmiddleblureffect"></div>
