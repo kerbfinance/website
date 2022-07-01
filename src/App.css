@@ -1,38 +1,226 @@
-.App {
+body {
+  background: #110101;
+}
+
+.app{
+  max-width: 1440px;
+  max-height: 840px;
+}
+
+.upper{
+  top: 78px;
+  position:relative;
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.logo {
+  height: 97px;
+  width: 103px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+.title {
+
+top:3px;
+position:relative;
+font-family: 'Montserrat', sans-serif;
+font-style: normal;
+font-weight: 700;
+font-size: 20px;
+line-height: 24px;
+letter-spacing: 1.275em;
+text-transform: uppercase;
+color: #A3A3A3;
+}
+
+.lower{
+  position:relative;
+  text-align: center;
+  top: 233px;
+}
+
+.sloganUpper {
+  position: relative;
+  /* width: 812px; */
+  height: 96px;
+  /* left: 314px; */
+  
+  font-family: 'Graphik';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 71px;
+  line-height: 96px;
+  
+  background: linear-gradient(180deg, #210404 0.03%, #1D1E2C 0.05%, rgba(255, 255, 255, 0.88) 56.49%, #FFCE00 274.92%, #FFFFFF 274.94%, #FFCE00 274.97%, #FFFEFE 275%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  text-fill-color: transparent;
+}
+
+.sloganLower{
+position: relative;
+/* width: 562px; */
+height: 96px;
+/* left: 439px; */
+
+margin-top: -20px;
+
+font-family: 'Graphik';
+font-style: normal;
+font-weight: 500;
+font-size: 71px;
+line-height: 96px;
+/* identical to box height, or 135% */
+
+background: linear-gradient(360deg, #FFFFFF 26.04%, #210404 142.19%);
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+background-clip: text;
+text-fill-color: transparent;
+}
+
+
+.info {
+  position: relative;
+  /* width: 704px; */
+  height: 91px;
+  /* left: 356px; */
+  line-height: 18px;
+  font-family: 'Graphik';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 35px;
+  text-align: center;
+  color: #FFFFFF;
+}
+
+.brown {
+  color: #C5997D;
+  line-height: 18px;
+}
+
+.blackArrow{
+  position: relative;
+  width: 13.93px;
+  height: 13.93px;
+  margin-left:-20px;
+  margin-right:10px;
+}
+
+.whiteArrow{
+  position: relative;
+  width: 13.93px;
+  height: 13.93px;
+  margin-left:-20px;
+  margin-right:10px;
+}
+
+.buttonCommon{
+  position: relative;
+  width: 223.72px;
+  height: 69.71px;
+  border: none;
+  border-radius: 14px;
+
+}
+
+.buttonWhite{
+background: #FEFDFC;
+opacity: 0.8;
+margin-right: 13.275px;
+
+font-family: 'Montserrat', sans-serif;;
+font-style: normal;
+font-weight: 500;
+font-size: 15.9328px;
+line-height: 19px;
+color: #1D1E2C;
+}
+
+.buttonWhite:hover{
+  background: #FFFFFF;
+  opacity: 0.825;
+  margin-right: 13.275px;
+  
+  font-family: 'Montserrat', sans-serif;;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15.9328px;
+  line-height: 19px;
+  color: #1D1E2C;
   }
+
+.buttonBrown {
+background: linear-gradient(106.69deg, #A66C48 -5.26%, #7E3F17 5.08%, #A66C48 45.58%, #7E3F17 94.05%);
+opacity: 0.9;
+margin-left: 13.275px;
+
+font-family: 'Graphik';
+font-style: normal;
+font-weight: 400;
+font-size: 15.9328px;
+line-height: 19px;
+
+color: #FFFFFF;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+.buttonBrown:hover{
+  background: linear-gradient(106.69deg, #A66C48 -5.26%, #7E3F17 5.08%, #A66C48 45.58%, #7E3F17 94.05%);
+  opacity: 9.5;
+  margin-left: 13.275px;
+  
+  font-family: 'Graphik';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15.9328px;
+  line-height: 19px;
+  color: #FFFFFF;
   }
-  to {
-    transform: rotate(360deg);
-  }
+
+.curveLineEffect{
+position: absolute;
+width: 1131px;
+height: 728px;
+left: -388px;
+top: 97px;
+}
+
+.downleftblureffect{
+position: absolute;
+bottom: 0;
+width: 259px;
+height: 307px;
+left: -64px;
+/* top: 607px; */
+z-index: -1;
+background: radial-gradient(78.6% 78.6% at 50% 46.16%, rgba(197, 153, 125, 0.243) 3.12%, rgba(14, 17, 32, 0) 100%);
+filter: blur(56px);
+}
+
+.leftmiddleblureffect{
+  position: absolute;
+  width: 299px;
+  height: 337px;
+  left: 222px;
+  top: 241px;
+  z-index: -1;
+  background: radial-gradient(78.6% 78.6% at 50% 46.16%, rgba(197, 153, 125, 0.243) 3.12%, rgba(14, 17, 32, 0) 68.23%);
+  filter: blur(72px);
+}
+
+
+
+.rightupblureffect{
+position: absolute;
+right: 0px;
+width: 554px;
+height: 650px;
+/* left: 859px;
+top: -36px; */
+z-index: -1;
+background: radial-gradient(78.6% 78.6% at 50% 46.16%, rgba(77, 30, 30, 0.702) 3.12%, rgba(14, 17, 32, 0) 100%);
+/* background: -webkit-radial-gradient(30% 40%,farthest-side,red,yellow);
+background: radial-gradient(farthest-side at 30% 40%,red,yellow); */
+filter: blur(24px);
 }
